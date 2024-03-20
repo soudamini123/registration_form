@@ -1,0 +1,170 @@
+.WebsiteForm {
+    margin: 20px;
+}
+
+.WebsiteForm input,
+.WebsiteForm textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.WebsiteForm button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.WebsiteForm button:hover {
+    background-color: #0056b3;
+}
+
+.websiteTbl {
+    margin: 20px;
+}
+
+#MyFirstWebsiteTbl {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#MyFirstWebsiteTbl th,
+#MyFirstWebsiteTbl td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+#MyFirstWebsiteTbl th {
+    background-color: #f2f2f2;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+.fa-edit {
+    color: blue;
+}
+
+.fa-trash {
+    color: red;
+}
+.WebsiteForm {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the form on the page */
+  }
+  
+  .WebsiteForm input,
+  .WebsiteForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .WebsiteForm input:focus,
+  .WebsiteForm textarea:focus {
+    border-color: #4da0fe;
+  }
+  
+  .WebsiteForm button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #4da0fe;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .WebsiteForm button:hover {
+    background: #2668b5;
+  }
+  
+  .text-danger {
+    color: #dc3545; /* Red color for error messages */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .WebsiteForm {
+      width: 90%;
+    }
+  }
+  .websiteTbl {
+    margin: 20px auto;
+    max-width: 80%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #MyFirstWebsiteTbl {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.2);
+    border: 0.5px solid rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+  }
+  
+  #MyFirstWebsiteTbl th,
+  #MyFirstWebsiteTbl td {
+    border: 0.5px solid rgba(255, 255, 255, 0.6);
+    padding: 12px;
+    text-align: left;
+  }
+  
+  #MyFirstWebsiteTbl th {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  #MyFirstWebsiteTbl td button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  #MyFirstWebsiteTbl td button i {
+    font-size: 20px;
+  }
+  
+  #MyFirstWebsiteTbl td button:hover i {
+    color: #333;
+  }
+  
+  .text-info {
+    color: #17a2b8; /* Blue color for edit icon */
+  }
+  
+  .text-danger {
+    color: #dc3545; /* Red color for delete icon */
+  }
+    .male_wraper{
+      display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 32px;
+
+    }
+    .female_wrapper{
+      display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+
+    }
+    input[type=radio]{
+      width:auto;
+    }

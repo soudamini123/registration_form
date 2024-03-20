@@ -1,0 +1,101 @@
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="/MyFirstWebsite/Script.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/MyFirstWebsite/Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="/MyFirstWebsite/jquery.validate.min.js"></script>
+  <script src="/MyFirstWebsite/moment (3).js"></script>
+</head>
+
+<div class="WebsiteForm">
+
+  <input id="IName" name="IName" type="text" placeholder="Enter your name" onkeyup="ValidateForm('name')"
+    onblur="Validateformonblue('name')">
+  <br>
+  <span class="text-danger field-validation-valid" id="spnIName"></span>
+  <br>
+  <input id="INumber" name="INumber" type="text" placeholder="Enter your number" onkeyup="ValidateForm('number')"
+    onblur="Validateformonblue('number')">
+  <br>
+  <span class="text-danger field-validation-valid" id="spnINumber"></span>
+  <br>
+  <input id="IEmail" name="IEmail" type="email" placeholder="Enter your email" onkeyup="ValidateForm('email')"
+    onblur="Validateformonblue('email')">
+  <br>
+  <span class="text-danger field-validation-valid" id="spnIEmail"></span>
+  <br>
+  <input id="IDate" name="IDate" type="date" onchange="ValidateForm('Date')" onblur="Validateformonblue('Date')">
+  <br>
+  <span class="text-danger field-validation-valid" id="spnIDate"></span>
+  <br>
+
+
+  <p>Enter your gender</p>
+  <div class="male_wraper">
+    <label for="gender_male">Male</label>
+    <input type="radio" id="gender_male" name="gender" value="male" onchange="ValidateForm('Gender')">
+  </div>
+  
+  <div class="female_wrapper">
+    <label for="gender_female">Female</label>
+    <input type="radio" id="gender_female" name="gender" value="female" onchange="ValidateForm('Gender')">
+  </div>
+  
+  <span class="text-danger field-validation-valid" id="spnIGender"></span>
+  
+
+
+  <!--  <textarea id="IArea" name="IArea" id="Area" rows="5" cols="18" onkeyup="ValidateForm('area')" onblur="Validateformonblue('area')"></textarea>
+  <br>
+  <span class="text-danger field-validation-valid" id="spnIArea"></span>
+  <br> -->
+
+  <button id="SubmitForm" onclick="OpenAlert()">Submit</button>
+  <!-- <button id="SubmitForm">Submit</button> -->
+  <!-- <button type="button" onclick="next">Next</button>
+    <link rel="Index.html" href=""> -->
+
+</div>
+
+<br>
+
+<div class="websiteTbl">
+  <table id="MyFirstWebsiteTbl">
+    <tr>
+      <th>Name</th>
+      <th>Number</th>
+      <th>Email</th>
+      <th>Date</th>
+      <th>Gender</th>
+      <th>Action</th>
+    </tr>
+    <!-- <tr>
+        <td><span id="name"></span></td>
+        <td><span id="number"></span></td>
+        <td><span id="Email"></span></td>
+        <td><span id="date"></span></td>
+        <td><span id="gender"></span></td>
+        <td><button title="Edit" onclick="GetData()"><i class="fa fa-edit text-info"></i></button>&nbsp;&nbsp;<button
+            title="delete" onclick="deletedata()"><i class="fa fa-trash text-danger"></i></button>
+
+          </td>
+      </tr> -->
+    <tbody></tbody>
+  </table>
+</div>
+
+<!-- <div class="step" id="step2">
+    <h3>this is step 2</h3>
+    <button type="button" class="back">Back</button>
+    <button type="button" class="next">Next</button>
+
+</div>
+ -->
